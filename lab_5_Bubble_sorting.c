@@ -9,7 +9,7 @@ void display(float array[], int n)
 		printf("%.3f ", array[i]);
 }
 int main()
-{
+{ 
 	int n;
 	float array[50];
 	printf("Enter length of array : ");
@@ -33,7 +33,7 @@ int main()
 void bubble_sort(float array[], int n)
 {
 	float temp;
-
+	
 	for (int i = 0; i < n - 1; i++)
 	{
 		for (int j = 0; j < n - i - 1; j++)
