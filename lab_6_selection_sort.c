@@ -11,6 +11,7 @@ void selection_sort(int array[], int len)
 	int i, j, swap, min_pos;
 	for (i = 0; i <= len - 1; i++)
 	{
+		min_pos = i;
 		for (j = i + 1; j < len; j++)
 		{
 			// here j=i+1 kina bhane we dont need check i with itself in 1st j's iteration
